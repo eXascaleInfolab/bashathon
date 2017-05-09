@@ -68,7 +68,7 @@ who
 ## Piping
 
 ```
-cat head tail (-v) | grep
+cat head tail (-f) | grep
 sort
 more / less
 zip / bzip2
