@@ -7,7 +7,8 @@
 * Piping
 * Editing & File manipulation
 * VIM
-* Remote (Tunneling and Multishell)
+* Remote Tunneling
+* Multishell
 
 ---
 
@@ -45,7 +46,7 @@ man -k "find files"
 cat /etc/issue
 cat /proc/cpuinfo
 free
-df -h
+df -h / du
 ps / kill
 top / htop
 lsof
@@ -68,8 +69,9 @@ who
 
 ```
 cat head tail (-v) | grep
-more
-less
+sort
+more / less
+zip / bzip2
 ```
 
 ---
@@ -157,12 +159,40 @@ ssh -L <localport>:<server>:<serverport> <user>@<sshserver>
 
 ---
 
-## tmux
+## Multishell with tmux
 
-* Multiple Shells
 * Long Running processes / Work environment
-* Collaborative Sessions
+* Multiple Shells
+```
+tmux:           Start tmux
+tmux ls:        Show running Session
+tmux attach:    Attach to running Session
+Ctrl-b c :      Create a new Window
+Ctrl-b n :      Switch to next Window
+Ctrl-b [0-9] :  Switch to Window #
+Ctrl-b d:       Detach tmux
+Ctrl-b k:       Destroy Session
+```
 
-```
-tmux
-```
+* Collaborative Sessions
+Note:  https://danielmiessler.com/study/tmux/
+
+---
+## Third Hands-On
+
+* Open a tmux session on a Pi. Invite your neighbor too it.
+* Open a text file with VIM.
+* Show-off your VIM skills to each other.
+
+---
+
+## Recap
+
+* BASH Magic
+* System Properties
+* Piping
+* Editing & File manipulation
+* VIM
+* Remote Tunneling
+* Multishell
+
