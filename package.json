@@ -10,7 +10,6 @@
     "start": "reveal-md --theme white slides.md",
     "build": "reveal-md --theme white --static dist slides.md",
     "deploy": "git-directory-deploy --directory dist --branch gh-pages"
-
   },
   "repository": {
     "type": "git",
@@ -24,6 +23,7 @@
   "homepage": "https://github.com/eXascaleInfolab/bashathon#readme",
   "dependencies": {},
   "devDependencies": {
-    "git-directory-deploy": "^1.5.1"
+    "git-directory-deploy": "^1.5.1",
+    "reveal-md": "^2.0.2"
   }
 }
