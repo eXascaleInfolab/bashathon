@@ -1,0 +1,29 @@
+{
+  "name": "bashathon",
+  "version": "1.0.0",
+  "description": "Slides for the Bashathon @UNIFr",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "reveal-md --theme white slides.md",
+    "build": "reveal-md --theme white --static dist slides.md",
+    "deploy": "git-directory-deploy --directory dist --branch gh-pages"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eXascaleInfolab/bashathon.git"
+  },
+  "author": "Michael Luggen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eXascaleInfolab/bashathon/issues"
+  },
+  "homepage": "https://github.com/eXascaleInfolab/bashathon#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "git-directory-deploy": "^1.5.1"
+  }
+}

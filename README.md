@@ -2,8 +2,21 @@
 
 [Slides](slides.md)
 
-## Install reveal-md
+## Install
+
 ```
-npm install -g reveal-md
-reveal-md slides.md
+npm install
+```
+
+## Run
+
+```
+npm run start
+```
+
+## Deploy
+
+```
+npm run build
+npm run deploy
 ```
