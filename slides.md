@@ -22,7 +22,8 @@ System Oriented Programming, Michael Luggen
 
 ```
 ssh <unifrlogin>@diufpc80
-ssh <unifrlogin>@diufpc81
+...
+ssh <unifrlogin>@diufpc87
 ```
 
 ---
@@ -124,7 +125,7 @@ find
 
 ### VIM Modes
 
-![modes](https://blog.interlinked.org/static/images/modes.png)
+![modes](vim-modes.png)<!-- .element height="50%" width="50%" -->
 
 ----
 
@@ -139,9 +140,7 @@ j …move down
 
 ----
 
-### VIM Movement
-
-![commands](https://blog.interlinked.org/static/images/commands.png)
+![commands](vim-movements.png)<!-- .element height="50%" width="50%" -->
 
 ----
 
